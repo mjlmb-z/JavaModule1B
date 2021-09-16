@@ -7,8 +7,8 @@ Calculate Pooja's account balance after an attempted transaction.*/
 public class bank {
     public static void main(String[] args)
     {
-        float total=10000F,x = 0.0F;
-        if(x%5==0 && x<total && x!=0){
+        float total=10000F,x = 20.0F;
+        if(x%5==0 && x<total && x<total+(float)0.5 && x!=0 ){
             total=total-x-(float)0.05;
             System.out.println("\nTransaction Successful.\nThe total remaining amount:\t"+total);
         }
