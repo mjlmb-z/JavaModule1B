@@ -22,7 +22,7 @@ public class UseObject {
         a.JPL_Lab=7.77;
         avg1=a.average();
 
-        System.out.println("Average of all the subject ="+avg1);
+        System.out.println("Average of all the subject:\t"+avg1);
 
 
 
