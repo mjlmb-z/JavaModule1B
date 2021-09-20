@@ -15,11 +15,11 @@ public class UseObject {
         double avg1;
         Object a = new Object();
 
-        a.AM3 = 8.5;
-        a.PCPF= 9.0;
-        a.DBMS= 8.7;
-        a.DSA= 7.9;
-        a.JPL_Lab=9.8;
+        a.AM3 = 8.25;
+        a.PCPF= 9.2;
+        a.DBMS= 7.7;
+        a.DSA= 8.9;
+        a.JPL_Lab=7.77;
         avg1=a.average();
 
         System.out.println("Average of all the subject ="+avg1);
